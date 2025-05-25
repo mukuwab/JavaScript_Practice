@@ -1,4 +1,5 @@
 console.log("--------Push method-------");
+//The push method can be used to add elements to an array
 
 let rows = []; //Create new empty array
 let characters = "x"; //Initiate value to hold character x
