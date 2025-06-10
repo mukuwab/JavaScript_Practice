@@ -1,6 +1,6 @@
 //ADDITION OPERATOR
 
-//The addition operator is not the only way to add values to a variable. The addition assignment operator can be used as shorthand to mean "take the original value of the variable, add this value, and assign the result back to the variable." For example, these two statements would yield the same result:
+/*The addition operator is not the only way to add values to a variable. The addition assignment operator can be used as shorthand to mean "take the original value of the variable, add this value, and assign the result back to the variable." For example, these two statements would yield the same result:*/
 
 let total = 9;
 //if the value of a variable will be reassigned in the future, you MUST use the let variable type instead of const. 
