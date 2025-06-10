@@ -18,3 +18,10 @@ console.log("The new value is: "+total);
 let total2 = 9;
 total2-= 1;
 console.log("The new value is: "+total2);
+
+
+//the increment operator ++. This operator increases the value of a variable by 1, updating the assignment for that variable.
+
+let total3 = 9;
+total3++;
+console.log("The new value is: "+total3);
