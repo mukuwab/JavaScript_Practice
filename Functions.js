@@ -16,10 +16,20 @@ console.log(sum);//print the value
 
 
 
-//Hardcoded functions
+//Hardcoded function
 function testName (name){
     return name = "Mukuwa";
 }
 
 const nameIs =  testName();
 console.log(nameIs);
+
+
+//Concatination function
+function fullNamefunc(firstName,lastName){
+    
+    return firstName+" "+lastName;
+    
+};
+const fullName = fullNamefunc("John","Doe");
+console.log(fullName)
