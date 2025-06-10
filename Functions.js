@@ -18,7 +18,7 @@ function addTwoNumbers(num1, num2){//declare the variables inside the parathensi
 const sum = addTwoNumbers(5,10);
 console.log(sum);//print the value
 
-
+///////////////////////////////////////////////////////////////////////////
 
 //Hardcoded function
 function testName (name){
@@ -28,7 +28,7 @@ function testName (name){
 const nameIs =  testName();
 console.log(nameIs);
 
-
+/////////////////////////////////////////////////////////////////////////
 //Concatination function
 function fullNamefunc(firstName,lastName){
     
@@ -37,3 +37,40 @@ function fullNamefunc(firstName,lastName){
 };
 const fullName = fullNamefunc("John","Doe");
 console.log(fullName)
+
+
+///////////////////////////////////////////////////////////////////////////
+
+function dogYears(years){
+    
+    return years * 7;
+}
+
+const dogYearsCalc = dogYears(6);
+console.log(dogYearsCalc);
+
+///////////////////////////////////////////////////////////////////////////
+
+//Function using the repeat keyword
+function sayNameThreeTimes(name1){
+    
+    return name1.repeat(3);
+}
+
+const printNameThreeTimes = sayNameThreeTimes("Len ");
+console.log(printNameThreeTimes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
