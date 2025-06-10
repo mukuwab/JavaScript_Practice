@@ -9,6 +9,10 @@ function addTwoNumbers(num1, num2){//declare the variables inside the parathensi
   return num1+num2;//return the sum of the two parameters
 }
 
+
+//the return keyword is that it does not just define a value to be returned from your function, it also stops the execution of your code inside a function or a block statement. This means any code after a return statement will not run.
+
+
 ///assign function to a variable so the output can be printed 
 //pass two values into the parameters
 const sum = addTwoNumbers(5,10);
