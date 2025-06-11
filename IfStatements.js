@@ -87,12 +87,6 @@ else{
   console.log("This is the else block");
 }
 
-let result = ""
 
-for (const row of rows) {
-  result = result + row + "\n";
-}
-
-console.log(result);
 
 
