@@ -12,15 +12,15 @@
 let continueLoop = true
 let i=0;
 
-while(continueLoop=true){
-    
+while(continueLoop==true){
+    //use == since you are comparing the value of continueLoop NOT assigning it the value of 0!
     i++;
     console.log(i);
     
-    if(i=10){
+    if(i==10){
+        //use == b/c need to compare value of i, NOT assign a new value of 10
         continueLoop = false;
-    }
-    
-}
+    }//End: if
+}//End: while
 
 console.log("This loop has terminated")
