@@ -68,3 +68,26 @@ if(numKiwis==numGrapes){
 else{
     console.log("These fruits have different quantities");
 }
+
+
+
+/*The strict inequality operator !== allows you to check if two values are not equal, or do not have the same type. The syntax is similar to the equality operator: value !== 4.
+
+Currently the while loop runs only if continueLoop is true. Update the while loop condition to check if done is not equal to count.*/
+
+
+if(numKiwis!==numGrapes){
+    console.log("These fruits do not have the same quantity");
+}
+else{
+    console.log("These fruits have the same quanitity");
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+if(numKiwis!==numApples){
+    console.log("These fruits do not have the same quantity");
+}
+else{
+    console.log("These fruits have the same quanitity");
+}
