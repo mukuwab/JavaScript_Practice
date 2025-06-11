@@ -35,3 +35,24 @@ Try changing your if condition to an empty string "", which is a falsy value.*/
 if(null){
     console.log("The condition is true");
 }//no output
+
+
+
+////ELSE-IF STATEMENTS
+
+//In addition to if statements, JavaScript also has else if statements. else if statements allow you to check multiple conditions in a single block of code.
+
+/*if (condition1) {
+  // code to run if condition1 is true
+} else if (condition2) {
+  // code to run if condition2 is true
+} else if (condition3) {
+  // code to run if condition3 is true
+} */
+
+if ("") {
+  console.log("Condition is true");
+}
+else if(5<10){
+  console.log("5 is less than 10");
+}
