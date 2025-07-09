@@ -1,4 +1,4 @@
-let scores = [43,56,67,87,67,45,34]
+let scores = [73,96,67,87,67,85,74,95,100,25,56,78]
 
 function getAverage(scores){
     //need to pass in a parameter for it to be analyzed
@@ -29,4 +29,37 @@ console.log("The average score amoung the score array is: "+getAverage(scores));
         //function ()
     //then add parameter
         //function(parameter)
+        
+        
+        //assign the getAverage(score) to a variable so it is easier to manipulate
+        const average = getAverage(scores);
+        console.log(average);
     
+    //Now create a function to output a letter grade based on the score
+        //conditional statements (if, else if, and else).
+        //comparison operators (>, <, >=, <=, ===).
+        //logical AND operator (&&).
+function getGrade(average){
+    
+    let grade;
+        
+      if(average<=100 && average>=90){
+          grade = "A"
+      }
+      else if (average<=89 && average >=80){
+          grade = "B"
+      }
+     else if (average<=79 && average >=70){
+          grade = "C"
+      }
+      else if (average<=69 && average >=60){
+          grade = "D"
+      }
+      else{
+        grade ="F"
+      }
+        
+    return grade;
+}
+
+console.log(getGrade(average));
